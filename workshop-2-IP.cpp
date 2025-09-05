@@ -65,9 +65,6 @@ int main(){
 }
 
 void firstPoint(){
-    /*Statement: write a program that reads an employee's salary and 
-    gender data. Calculate the salary for the following year if the 
-    company increases the salary by 7% for men and 10% for women.*/
 
     int actualSalary=0, newSalary=0;
     char gender;
@@ -100,11 +97,6 @@ void firstPoint(){
 }
 
 void secondPoint(){
-    /*Statement: write a program to determine the value of an order. The data is the
-    quantity and unit value of the item. The following discount policy applies: if the 
-    gross purchase value exceeds $500,000, a 5% discount is applied; otherwise, there 
-    is no discount. Regardless of the discount, a 20% VAT must be charged on the gross 
-    value. The output will be the net value to be collected.*/
 
     int quantity=0, unitValue=0, finalValue=0;
 
@@ -135,12 +127,6 @@ void secondPoint(){
 }
 
 void thirdPoint(){
-    /*Statement: write a program that calculates the monthly cell phone rate, which
-    depends on the number of minutes used and is based on the following
-    criteria:
-    - The basic rate is $50,000.
-    - For the first 500 minutes, the rate per minute is $100.
-    - After the first 500 minutes, the rate per minute is discounted by 40%.*/
    
     int minutes=0, fee=50000;
 
@@ -168,11 +154,6 @@ void thirdPoint(){
 }
 
 void fourthPoint(){
-    /*Statement: sunday movie admission has a promotional price for children 
-    (12 or younger) and seniors (60 or older) of 50% of the ticket price. Adults 
-    and youth pay the full rate for that time slot, which is $12,000. Write a 
-    program that tells someone arriving at the box office how much they should 
-    pay for the ticket. Would you ask that person anything?*/
     
     int age=0, fee=12000;
 
@@ -197,10 +178,6 @@ void fourthPoint(){
 }
 
 void fifthPoint(){
-    /*Statement: write a program that simulates a calculator. It must read
-    two numbers and a character. If the character is a +, the sum is printed.
-    If it is a –, the difference is printed. This is done in the same way as 
-    multiplication, division, and mod. Use switch.*/
 
     int number1=0, number2=0, result=0;
     char operation;
@@ -243,12 +220,6 @@ void fifthPoint(){
 }
 
 void sixthPoint(){
-    /*Write a program that calculates the net cost of a person's admission to an amusement 
-    park. The data available for each person is: age, category (represented by a character) 
-    (L: Local / T: Tourist), and ticket type (also represented by a character) 
-    (N: Regular / E: Special / P: Plus). The gross cost of admission is $20,000 for adults 
-    and $15,000 for children (under 12) and seniors (over 60). For this month, a discount 
-    has been implemented.*/
 
     int age=0, price=20000;
     char category, entryType;
