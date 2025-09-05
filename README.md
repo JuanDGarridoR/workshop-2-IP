@@ -1,6 +1,6 @@
 # Workshop #2 - Introduction to Programming
 
-This project implements a C++ program that solves six basic programming exercises using the if and the switch sentence.
+This project implements a C++ program that solves basic programming exercises using the if and the switch sentence.
 
 ## Description
 
@@ -16,9 +16,7 @@ A program that reads an employee's salary and gender data. Calculate the salary 
 
 2. **Point 2**
 
-A program to determine the value of an order. The data is the quantity and unit value of the item. The following discount policy applies: if the gross purchase value exceeds $500,000, a 5% discount is applied; otherwise, there 
-is no discount. Regardless of the discount, a 20% VAT must be charged on the gross 
-value. The output will be the net value to be collected.  
+A program to determine the value of an order. The data is the quantity and unit value of the item. The following discount policy applies: if the gross purchase value exceeds $500,000, a 5% discount is applied; otherwise, there is no discount. Regardless of the discount, a 20% VAT must be charged on the gross value. The output will be the net value to be collected.  
 
    - Reads quantity and unit value of items.  
    - If the gross purchase value exceeds **$500,000**, applies a 5% discount.  
@@ -27,7 +25,7 @@ value. The output will be the net value to be collected.
 
 3. **Point 3**
 
-A program to calculate the monthly cell phone fee.  
+A program that calculates the monthly cell phone rate, which depends on the number of minutes used and is based on the following criteria:
 
    - Base fee: **$50,000**.  
    - First 500 minutes → $100 per minute.  
@@ -36,7 +34,8 @@ A program to calculate the monthly cell phone fee.
 
 4. **Point 4**
 
-A program to calculate the price of a movie ticket on Sunday promotions.  
+Sunday movie admission has a promotional price for children (12 or younger) and seniors (60 or older) of 50% of the ticket price. Adults and youth pay the full rate for that time slot, which is $12,000. Write a program that tells someone arriving at the box office how much they should 
+pay for the ticket. Would you ask that person anything?
 
    - Base ticket price: **$12,000**.  
    - Children (≤12 years old) and seniors (≥60 years old) → 50% discount.  
@@ -44,7 +43,7 @@ A program to calculate the price of a movie ticket on Sunday promotions.
 
 5. **Point 5**
 
-A program that simulates a calculator using `switch`. 
+A program that simulates a calculator. It must read two numbers and a character. If the character is a +, the sum is printed. If it is a –, the difference is printed. This is done in the same way as multiplication, division, and mod. Use switch.
 
    - Reads two integers and an operator.  
    - Supported operations:  
@@ -57,13 +56,19 @@ A program that simulates a calculator using `switch`.
 
 6. **Point 6**
 
-A program that calculates the **net cost of admission** to an amusement park.  
+A program that calculates the net cost of a person's admission to an amusement  park. The data available for each person is: age, category (represented by a character) (L: Local / T: Tourist), and ticket type (also represented by a character) (N: Regular / E: Special / P: Plus). The gross cost of admission is $20,000 for adults and $15,000 for children (under 12) and seniors (over 60). For this month, a discount has been implemented.
 
    - Inputs: age, category (Local / Tourist), and ticket type (Normal / Special / Plus).  
    - Base cost:  
      - Adults → $20,000  
      - Children (<12) and seniors (>60) → $15,000  
-   - Discounts vary depending on category and ticket type.  
+   - Discounts vary depending on category and ticket type.
+         **Simplified discount table:**
+
+   | Age group                         | Base price | Local (L)                                    | Tourist (T)                                            |
+   |-----------------------------------|------------|----------------------------------------------|-------------------------------------------------------|
+   | Children (<12) and Seniors (>60)  | $15,000    | $5,000 fixed discount (+1% if Plus)          | $5,000 fixed discount + extra discount (2% N, 3% E, 4–5% P) |
+   | 12 to 59 years old                | $20,000    | Only 1% discount if Plus                     | Discount according to entry (2% N, 2.5–3% E, 4–5% P)  |
    - Applies additional reductions for locals and tourists.  
 
 ## How to Run
