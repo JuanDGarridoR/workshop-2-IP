@@ -66,8 +66,8 @@ A program that calculates the net cost of a person's admission to an amusement  
 
    | Age group                         | Base price | Local (L)                                    | Tourist (T)                                            |
    |-----------------------------------|------------|----------------------------------------------|-------------------------------------------------------|
-   | Children (<12) and Seniors (>60)  | $15,000    | $5,000 fixed discount (+1% if Plus)          | $5,000 fixed discount + extra discount (2% N, 3% E, 4–5% P) |
-   | 12 to 59 years old                | $20,000    | Only 1% discount if Plus                     | Discount according to entry (2% N, 2.5–3% E, 4–5% P)  |
+   | Children (<12) and Seniors (>60)  | $15,000    | $5,000 fixed discount (+1% if Plus)          | $5,000 fixed discount + extra discount (2% N, 3% E, 4% P) |
+   | 12 to 59 years old                | $20,000    | Only 1% discount if Plus                     | Discount according to entry (2% N, 3% E, 4% P)  |
    
    - Applies additional reductions for locals and tourists.  
 
