@@ -51,7 +51,7 @@ A program that simulates a calculator. It must read two numbers and a character.
      - Subtraction (–)  
      - Multiplication (*)  
      - Division (/)  
-     - Modulo (%)  
+     - Mod (%)
    - Displays the result of the operation.  
 
 6. **Point 6**
@@ -63,12 +63,12 @@ A program that calculates the net cost of a person's admission to an amusement  
      - Adults → $20,000  
      - Children (<12) and seniors (>60) → $15,000  
    - Discounts vary depending on category and ticket type.
-         **Simplified discount table:**
 
    | Age group                         | Base price | Local (L)                                    | Tourist (T)                                            |
    |-----------------------------------|------------|----------------------------------------------|-------------------------------------------------------|
    | Children (<12) and Seniors (>60)  | $15,000    | $5,000 fixed discount (+1% if Plus)          | $5,000 fixed discount + extra discount (2% N, 3% E, 4–5% P) |
    | 12 to 59 years old                | $20,000    | Only 1% discount if Plus                     | Discount according to entry (2% N, 2.5–3% E, 4–5% P)  |
+   
    - Applies additional reductions for locals and tourists.  
 
 ## How to Run
