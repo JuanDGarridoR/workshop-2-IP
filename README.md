@@ -73,7 +73,7 @@ A program that calculates the net cost of a person's admission to an amusement  
 
 ## How to Run
 
-1. **Download it**  
+1. **Download and extract it from the .zip**
 2. **Find the downloads folder (or the folder where you saved it) in the terminal.**  
 3. **Enter the following commands**  
    - Compile:
