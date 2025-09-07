@@ -28,7 +28,7 @@ int main(){
 
         switch (option){
         case 1:
-             firstPoint();
+            firstPoint();
             break;
     
         case 2:
